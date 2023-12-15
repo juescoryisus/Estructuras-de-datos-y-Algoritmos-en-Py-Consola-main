@@ -1,0 +1,156 @@
+git clone <https://github.com/juescoryisus/Proyectoenpython.git>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>a5c4ba55-f3a7-43ef-9eaf-465650523cca</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Estructuras_de_datos_y_Algoritmos_en_Py_Consola.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>Estructuras de datos y Algoritmos en Py Consola</Name>
+    <RootNamespace>Estructuras de datos y Algoritmos en Py Consola</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Circle_LinkedList.py" />
+    <Compile Include="Classes\Algorithms\BinaryTreeSort.py" />
+    <Compile Include="Classes\Algorithms\BubbleSort.py" />
+    <Compile Include="Classes\Algorithms\BucketSort.py" />
+    <Compile Include="Classes\Algorithms\CocktailSort.py" />
+    <Compile Include="Classes\Algorithms\CombSort.py" />
+    <Compile Include="Classes\Algorithms\CountingSort.py" />
+    <Compile Include="Classes\Algorithms\GnomeSort.py" />
+    <Compile Include="Classes\Algorithms\HeapSort.py" />
+    <Compile Include="Classes\Algorithms\InsertionSort.py" />
+    <Compile Include="Classes\Algorithms\MargeSort.py" />
+    <Compile Include="Classes\Algorithms\PigeonholeSort.py" />
+    <Compile Include="Classes\Algorithms\QuickSort.py" />
+    <Compile Include="Classes\Algorithms\RadixSort.py" />
+    <Compile Include="Classes\Algorithms\SelectionSort.py" />
+    <Compile Include="Classes\Algorithms\ShellSort.py" />
+    <Compile Include="Classes\Algorithms\SmoothSort.py" />
+    <Compile Include="Classes\DataStructures\Graphs\DirectedGraph.py" />
+    <Compile Include="Classes\DataStructures\Graphs\Graph.py" />
+    <Compile Include="Classes\DataStructures\Lists\Circle_LinkedList.py" />
+    <Compile Include="Classes\DataStructures\Lists\DoublyCircle_LinkedList.py" />
+    <Compile Include="Classes\DataStructures\Lists\Doubly_LinkedList.py" />
+    <Compile Include="Classes\DataStructures\Lists\LinkedList.py" />
+    <Compile Include="Classes\DataStructures\Nodes\BinaryNode.py" />
+    <Compile Include="Classes\DataStructures\Nodes\DoubleNode.py" />
+    <Compile Include="Classes\DataStructures\Nodes\Node.py" />
+    <Compile Include="Classes\DataStructures\Queues\CircularQueue.py" />
+    <Compile Include="Classes\DataStructures\Queues\DoubleQueue.py" />
+    <Compile Include="Classes\DataStructures\Queues\PriorityQueue.py" />
+    <Compile Include="Classes\DataStructures\Queues\RegularQueue.py" />
+    <Compile Include="Classes\DataStructures\Stacks\DynamicStack.py" />
+    <Compile Include="Classes\DataStructures\Stacks\StaticStack.py" />
+    <Compile Include="Classes\DataStructures\Tree\BinaryTree.py" />
+    <Compile Include="Classes\Operations\Algorithms\OperationsAlgorithm.py" />
+    <Compile Include="Classes\Operations\DataStructures\OperationsGraph.py" />
+    <Compile Include="Classes\Operations\DataStructures\OperationsList.py" />
+    <Compile Include="Classes\Operations\DataStructures\OperationsQueue.py" />
+    <Compile Include="Classes\Operations\DataStructures\OperationsStack.py" />
+    <Compile Include="Classes\Operations\DataStructures\OperationsTree.py" />
+    <Compile Include="DoublyCircle_LinkedList.py" />
+    <Compile Include="Doubly_LinkedList.py" />
+    <Compile Include="Estructuras_de_datos_y_Algoritmos_en_Py_Consola.py" />
+    <Compile Include="Interfaces\Algorithms\ImethodAlgorithms.py" />
+    <Compile Include="Interfaces\DataStructures\ImethodLists.py" />
+    <Compile Include="Interfaces\DataStructures\ImethodQueues.py" />
+    <Compile Include="Interfaces\DataStructures\ImethodStacks.py" />
+    <Compile Include="LinkedList.py" />
+    <Compile Include="OperationsMain.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="Classes\Algorithms\" />
+    <Folder Include="Classes\Algorithms\__pycache__\" />
+    <Folder Include="Classes\DataStructures\" />
+    <Folder Include="Classes\DataStructures\Graphs\" />
+    <Folder Include="Classes\DataStructures\Graphs\__pycache__\" />
+    <Folder Include="Classes\DataStructures\Lists\" />
+    <Folder Include="Classes\DataStructures\Lists\__pycache__\" />
+    <Folder Include="Classes\DataStructures\Nodes\" />
+    <Folder Include="Classes\DataStructures\Nodes\__pycache__\" />
+    <Folder Include="Classes\DataStructures\Queues\" />
+    <Folder Include="Classes\DataStructures\Queues\__pycache__\" />
+    <Folder Include="Classes\DataStructures\Stacks\" />
+    <Folder Include="Classes\DataStructures\Stacks\__pycache__\" />
+    <Folder Include="Classes\DataStructures\Tree\" />
+    <Folder Include="Classes\DataStructures\Tree\__pycache__\" />
+    <Folder Include="Classes\Operations\" />
+    <Folder Include="Classes\Operations\Algorithms\" />
+    <Folder Include="Classes\Operations\Algorithms\__pycache__\" />
+    <Folder Include="Classes\Operations\DataStructures\" />
+    <Folder Include="Classes\Operations\DataStructures\__pycache__\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Interfaces\Algorithms\" />
+    <Folder Include="Interfaces\Algorithms\__pycache__\" />
+    <Folder Include="Interfaces\DataStructures\" />
+    <Folder Include="Interfaces\DataStructures\__pycache__\" />
+    <Folder Include="__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Classes\Algorithms\__pycache__\BinaryTreeSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\BubbleSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\BucketSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\CocktailSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\CombSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\CountingSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\GnomeSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\HeapSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\InsertionSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\MargeSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\PigeonholeSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\QuickSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\RadixSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\SelectionSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\ShellSort.cpython-311.pyc" />
+    <Content Include="Classes\Algorithms\__pycache__\SmoothSort.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Graphs\__pycache__\DirectedGraph.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Graphs\__pycache__\Graph.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Lists\__pycache__\Circle_LinkedList.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Lists\__pycache__\DoublyCircle_LinkedList.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Lists\__pycache__\Doubly_LinkedList.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Lists\__pycache__\LinkedList.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Nodes\__pycache__\BinaryNode.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Nodes\__pycache__\DoubleNode.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Nodes\__pycache__\Node.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Queues\__pycache__\CircularQueue.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Queues\__pycache__\DoubleQueue.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Queues\__pycache__\PriorityQueue.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Queues\__pycache__\RegularQueue.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Stacks\__pycache__\DynamicStack.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Stacks\__pycache__\StaticStack.cpython-311.pyc" />
+    <Content Include="Classes\DataStructures\Tree\__pycache__\BinaryTree.cpython-311.pyc" />
+    <Content Include="Classes\Operations\Algorithms\__pycache__\OperationsAlgorithm.cpython-311.pyc" />
+    <Content Include="Classes\Operations\DataStructures\__pycache__\OperationsGraph.cpython-311.pyc" />
+    <Content Include="Classes\Operations\DataStructures\__pycache__\OperationsList.cpython-311.pyc" />
+    <Content Include="Classes\Operations\DataStructures\__pycache__\OperationsQueue.cpython-311.pyc" />
+    <Content Include="Classes\Operations\DataStructures\__pycache__\OperationsStack.cpython-311.pyc" />
+    <Content Include="Classes\Operations\DataStructures\__pycache__\OperationsTree.cpython-311.pyc" />
+    <Content Include="Interfaces\Algorithms\__pycache__\ImethodAlgorithms.cpython-311.pyc" />
+    <Content Include="Interfaces\DataStructures\__pycache__\ImethodLists.cpython-311.pyc" />
+    <Content Include="Interfaces\DataStructures\__pycache__\ImethodStacks.cpython-311.pyc" />
+    <Content Include="__pycache__\OperationsMain.cpython-311.pyc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
